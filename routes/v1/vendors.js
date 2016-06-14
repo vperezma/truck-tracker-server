@@ -12,7 +12,7 @@ router.route('/')
            return vendorsController.getAll().then(function(vendor) {
                 res.json(vendor);
             }).catch(function (err) {
-                res.reject(err);
+                res.json(err);
             })
         })
     })

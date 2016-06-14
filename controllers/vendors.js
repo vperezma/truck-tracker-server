@@ -3,6 +3,7 @@
 var models = require('../server/models'),
     Promise = require('bluebird'),
     vendor = models.Vendor;
+
 module.exports = {
     /**
      *
